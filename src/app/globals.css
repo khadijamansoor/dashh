@@ -1,0 +1,19 @@
+/* globals.css — add these near the top */
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevent page-level horizontal scroll */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ :root {
+  --color-primary: #3B82F6;   /* Blue */
+  --color-secondary: #8B5CF6; /* Purple */
+  --color-accent: #10B981;    /* Green */
+  --color-dark: #111827;      /* Optional dark background */
+  --color-light: #F9FAFB;     /* Optional light background */
+}
+html, body {
+  scroll-snap-type: y mandatory;
+}

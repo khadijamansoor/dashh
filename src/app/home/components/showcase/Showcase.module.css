@@ -1,0 +1,106 @@
+.showcase {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.screenshot {
+  flex: 8; /* 80% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fafb;
+}
+
+.screenshot img {
+  max-height: 85%;
+  max-width: 95%;
+  object-fit: contain;
+}
+
+.infoCard {
+  flex: 2; /* 20% */
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem; /* slightly reduced padding */
+  border-left: 1px solid #e5e7eb;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.head h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.content {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+}
+
+.colors {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.colors span {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.actions .link {
+  font-size: 0.9rem;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.likeButton {
+  background: #3b82f6;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.likeButton:hover {
+  background: #2563eb;
+}
+
+.note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #374151;
+  line-height: 1.4;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
