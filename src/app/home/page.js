@@ -1,7 +1,7 @@
-import Header from '@/app/components/Header/header.jsx'
+import { Header } from '@/app/components/Header/header.jsx'
 
-import MoreLikeThis from '@/app/home/components/MoreLikeThis/MoreLikeThis'
-import Showcase from '@/app/home/components/showcase/Showcase'
+import MoreLikeThis from '@/app/home/components/MoreLikeThis/moreLikeThis.jsx'
+import Showcase from '@/app/home/components/showcase/showcase.jsx'
 
 
 export default function HomePage() {
