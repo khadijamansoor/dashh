@@ -1,7 +1,7 @@
 import Header from '../components/Header/header'
 
-import Showcase from './components/MoreLikeThis/MoreLikeThis'
-import MoreLikeThis from './components/showcase/Showcase'
+import MoreLikeThis from './components/MoreLikeThis/MoreLikeThis'
+import Showcase from './components/showcase/Showcase'
 
 
 export default function HomePage() {
