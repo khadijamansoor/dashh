@@ -1,6 +1,6 @@
-import Header from '../../components/Header/Header'
+import Header from '../../components/Header/Header.jsx'
 
-import Showcase from './components/Showcase/Showcase'
+import Showcase from './components/Showcase/Showcase.jsx'
 import MoreLikeThis from './components/MoreLikeThis/MoreLikeThis'
 
 
